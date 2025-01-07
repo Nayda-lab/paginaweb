@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipo Azul</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #0078d7;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        header h2 {
+            font-size: 1.2em;
+            margin: 10px 0 0;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .item {
+            text-align: center;
+            max-width: 200px;
+        }
+
+        .item img, .item video {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #ddd;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .item p {
+            margin: 10px 0 0;
+            font-size: 1em;
+            color: #555;
+        }
+
+        .item:hover img, .item:hover video {
+            border-color: #0078d7;
+            transform: scale(1.1);
+            transition: transform 0.3s, border-color 0.3s;
+        }
+
+        .description {
+            margin: 30px 0;
+            font-size: 1.2em;
+            line-height: 1.5;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a la presentación de mi equipo</h1>
+        <h2>Grupo 8 - Cenfoti 2025</h2>
+    </header>
+    
+    <main>
+        <h2>Presentación de Integrantes</h2>
+        <div class="container">
+            <!-- Integrante 1 -->
+            <div class="item">
+                <img src="nayda.jpeg" alt="Fotografía de Liz Nayda Fernandez Pedraza">
+                <p><strong>Liz Nayda Fernandez Pedraza</strong></p>
+                <p>Escuela Profesional de Contabilidad</p>
+            </div>
+            <!-- Integrante 2 -->
+            <div class="item">
+                <img src="adriana.jpg" alt="Fotografía de Adriana Farfán">
+                <p><strong>Adriana Farfán</strong></p>
+                <p>Escuela Profesional de Contabilidad</p>
+            </div>
+            <!-- Integrante 3 -->
+            <div class="item">
+                <img src="estali.jpeg" alt="Fotografía de Estali Villacorta Cañihua">
+                <p><strong>Estali Villacorta Cañihua</strong></p>
+                <p>Escuela Profesional de Derecho</p>
+            </div>
+        </div>
+
+        <section class="description">
+            <h2>Descripción</h2>
+            <p>Somos un equipo dedicado a realizar actividades académicas en el curso de Cenfoti.</p>
+        </section>
+
+        <h2>NUESTROS GUSTOS MUSICALES</h2>
+        <div class="container">
+            <!-- Video 1 -->
+            <div class="item">
+                <video src="ALEC.MP4" controls></video>
+                <p>Alec Benjamin</p>
+            </div>
+            <!-- Video 2 -->
+            <div class="item">
+                <video src="hb.mp4" controls></video>
+                <p> The animals </p>
+            </div>
+            <!-- Video 3 -->
+            <div class="item">
+                <video src="mr.mp4" controls></video>
+                <p> Enanitos verdes </p>
+            </div>
+        </div>
+       
+<section class="description">
+            <h2>NUESTROS HOBBIES </h2>
+            <div class="container">
+            <!-- Integrante 1 -->
+            <div class="item">
+                <img src="bai.jpg" alt="Fotografía de Liz Nayda Fernandez Pedraza">
+                <p><strong>Liz Nayda - "Bailar"</strong></p>
+                
+            </div>
+            <!-- Integrante 2 -->
+            <div class="item">
+                <img src="pint.jpg" alt="Fotografía de Adriana Farfán">
+                <p><strong>Adriana - pintar </strong></p>
+            
+            </div>
+            <!-- Integrante 3 -->
+            <div class="item">
+                <img src="fut.jpg" alt="Fotografía de Estali Villacorta Cañihua">
+                <p><strong>Estali - Futbol </strong></p>
+            
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Equipo Azul. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
